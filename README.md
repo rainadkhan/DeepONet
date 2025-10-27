@@ -12,7 +12,7 @@ Sahadath, M. H., Cheng, Q., Pan, S., & Ji, W. (2025, April). Deep Operator Netwo
 ### 🧩 Overview
 
 This project develops a **DeepONet-based surrogate model** for solving the **1D steady-state neutron transport equation** under **vacuum boundary conditions**.  
-The goal is to learn a mapping from the **source distribution** \( Q(x) \) to the corresponding **neutron flux** \( \phi(x) \) using operator learning.
+The goal is to learn a mapping from the **source distribution** \( Q(x) \) to the corresponding **neutron flux** $\phi(x)$ using operator learning.
 
 We first solve the deterministic $S_N$ transport problem using the **diamond-difference method**, generate a dataset using **Gaussian Random Fields (GRFs)** for diverse source distributions, and finally train a **DeepONet** model to approximate the transport operator.
 
