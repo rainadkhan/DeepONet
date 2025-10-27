@@ -1,10 +1,12 @@
-# ⚛️ DeepONet — Neutron Transport in 1D Slab
+# ⚛️ DeepONet — Radiation Transport Problems
 
-Using **Deep Operator Networks (DeepONet)** via the [DeepXDE](https://github.com/lululxvi/deepxde) library to approximate the **neutron flux distribution** in a one-dimensional slab geometry with an internally varying source distribution.
+## Project 1: DeepONet Prediction of Ne;lllu
+
+Using **Deep Operator Networks (DeepONet) * via the [DeepXDE](https://github.com/lululxvi/deepxde) library to approximate the **neutron flux distribution** in a one-dimensional slab geometry with an internally varying source distribution.
 
 ---
 
-## 🧩 Overview
+### 🧩 Overview
 
 This project develops a **DeepONet-based surrogate model** for solving the **1D steady-state neutron transport equation** under **vacuum boundary conditions**.  
 The goal is to learn a mapping from the **source distribution** \( Q(x) \) to the corresponding **neutron flux** \( \phi(x) \) using operator learning.
@@ -13,7 +15,7 @@ We first solve the deterministic $S_N$ transport problem using the **diamond-dif
 
 ---
 
-## 🧠 Methodology
+### 🧠 Methodology
 
 1. **Transport Solver**
    - Implements 1D discrete ordinates ($S_N$) method.
@@ -35,7 +37,7 @@ We first solve the deterministic $S_N$ transport problem using the **diamond-dif
 
 ---
 
-## 📊 Results
+### 📊 Results
 
 - **Training:** 150 GRF samples  
 - **Testing:** 20 independent GRF samples  
@@ -51,6 +53,4 @@ We first solve the deterministic $S_N$ transport problem using the **diamond-dif
 Example prediction plots are available in the Jupyter notebook.
 
 ---
-
-## 🧮 Repository Structure
 
