@@ -20,9 +20,9 @@ We first solve the deterministic $S_N$ transport problem using the **diamond-dif
    - Uses **diamond-difference scheme** for spatial discretization.
    - Vacuum boundaries at both ends of the slab.
    - Computes cell-averaged scalar flux:
-     $
+     \(
      \phi_j = \sum_n w_n \psi_{n,j}
-     $
+     \)
 
 2. **Dataset Generation**
    - Generate 150 GRF-based source samples $Q_i(x)$ and compute corresponding fluxes $\phi_i(x)$ using the solver.
