@@ -1,9 +1,11 @@
 # ⚛️ DeepONet — Radiation Transport Problems
 
-## Project 1: DeepONet Prediction of Ne;lllu
+## Project 1: DeepONet Prediction of Neutron Flux in 1D Slab with Variable Source Distribution
 
 Using **Deep Operator Networks (DeepONet) * via the [DeepXDE](https://github.com/lululxvi/deepxde) library to approximate the **neutron flux distribution** in a one-dimensional slab geometry with an internally varying source distribution.
 
+Reference:
+Sahadath, M. H., Cheng, Q., Pan, S., & Ji, W. (2025, April). Deep Operator Network Based Surrogate Model for Neutron Transport Computation. In *Proceedings of International Conference on Mathematics and Computational Methods Applied to Nuclear Science & Engineering (M&C2025), Denver CO, USA*. Available at: https://doi.org/10.13182/xyz-47261
 ---
 
 ### 🧩 Overview
