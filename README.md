@@ -8,6 +8,10 @@ Reference:
 
 Sahadath, M. H., Cheng, Q., Pan, S., & Ji, W. (2025, April). Deep Operator Network Based Surrogate Model for Neutron Transport Computation. In *Proceedings of International Conference on Mathematics and Computational Methods Applied to Nuclear Science & Engineering (M&C2025), Denver CO, USA*. Available at: https://doi.org/10.13182/xyz-47261
 
+Gupta, A., & Khan, S. A. (2021). Methods of solving neutron transport equation. In *Physics of Nuclear Reactors* (pp. 263-329). Academic Press. https://doi.org/10.1016/B978-0-12-822441-0.00007-8
+
+Duderstadt, J. J., & Hamilton, L. J. (1976). Nuclear Reactor Analysis. Wiley. Available at http://milproj.dc.umich.edu/pdfs/books/1976_Nuclear%20Reactor%20Analysis.pdf
+
 ---
 
 ### 🧩 Overview
