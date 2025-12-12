@@ -5,14 +5,14 @@
 Using **Deep Operator Networks (DeepONet)** via the [DeepXDE](https://github.com/lululxvi/deepxde) library to approximate the **neutron flux distribution** in a one-dimensional slab geometry with an internally varying source distribution.
 
 Reference:
+
 Sahadath, M. H., Cheng, Q., Pan, S., & Ji, W. (2025, April). Deep Operator Network Based Surrogate Model for Neutron Transport Computation. In *Proceedings of International Conference on Mathematics and Computational Methods Applied to Nuclear Science & Engineering (M&C2025), Denver CO, USA*. Available at: https://doi.org/10.13182/xyz-47261
 
 ---
 
 ### 🧩 Overview
 
-This project develops a **DeepONet-based surrogate model** for solving the **1D steady-state neutron transport equation** under **vacuum boundary conditions**.  
-The goal is to learn a mapping from the **source distribution** $Q(x)$ to the corresponding **neutron flux** $\phi(x)$ using operator learning.
+This project develops a **DeepONet-based surrogate model** for solving the **1D steady-state neutron transport equation** under **vacuum boundary conditions**. The goal is to learn a mapping from the **source distribution** $Q(x)$ to the corresponding **neutron flux** $\phi(x)$ using operator learning.
 
 We first solve the deterministic $S_N$ transport problem using transport sweep and source iteration technique. Then, we generate a dataset using **Gaussian Random Fields (GRFs)** for diverse source distributions, and finally train a **DeepONet** model to approximate the transport operator.
 
